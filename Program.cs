@@ -13,7 +13,7 @@ namespace PractisesLessons17
             salaryInterest.CalculateInterest(аccountSalary);
 
             IAccount аccountUsually = new Account() { Balance = random.Next(450000, 620000), Interest = random.Next(2, 4) };
-            var usuallyInterest = new SalaryCalculator();
+            var usuallyInterest = new UsuallyCalculator();
             usuallyInterest.CalculateInterest(аccountUsually);
         }
     }
